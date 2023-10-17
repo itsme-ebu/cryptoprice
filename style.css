@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Noto+Sans+Bengali:wght@400;500;600;700;800;900&family=Outfit:wght@400;600;700;800&family=Poppins:wght@200;300;400;500;600&family=Roboto:wght@300;400;500;700;900&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: url("images/background.png");
+  background-position: center;
+  background-size: cover;
+  padding: 1% 7%;
+  font-family: ubuntu;
+  color: white;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 30px;
+}
+.logo img {
+  width: 100%;
+}
+.menu-list {
+  flex: 1;
+}
+
+.menu-list ul li {
+  display: inline-block;
+  list-style: none;
+}
+.menu-list ul li a {
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+}
+.curncy {
+  margin-right: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.curncy p {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 8rem;
+}
+
+.content h1 {
+  font-size: 4.6rem;
+  text-transform: uppercase;
+}
+
+.content h1 span {
+  color: rgb(197, 126, 4);
+  text-transform: capitalize;
+}
+
+.content p {
+  margin-top: 0.9rem;
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+}
+
+.content button {
+  margin-top: 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  color: white;
+  background: rgb(197, 126, 4);
+  border-radius: 2rem;
+  cursor: pointer;
+}
+
+.pricing {
+  display: flex;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  gap: 20px;
+}
+.price-box {
+  width: 200px;
+  display: flex;
+  border: 1px solid white;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.coin-logo {
+  width: 50px;
+  margin-right: 10px;
+}
+.coin-logo img {
+  width: 100%;
+}
+.coin-price h3 {
+  color: rgba(255, 255, 255, 0.879);
+}
